@@ -1,5 +1,7 @@
 # Florida local codes of ordinances
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22922295.svg)](https://doi.org/10.5281/zenodo.22922295)
+
 Where each of Florida's 478 local governments publishes its code of ordinances,
 who publishes it, and how current that code is. One row per county and per
 incorporated municipality: all 67 counties and all 411 cities, towns and
