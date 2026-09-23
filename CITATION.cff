@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "Florida local codes of ordinances: publication and currency, 2026"
+message: "If you use this dataset, please cite it."
+type: dataset
+authors:
+  - family-names: Klagge
+    given-names: Kevin D.
+    affiliation: "Klagge Law, PLLC (StepUpLaw)"
+    orcid: "https://orcid.org/0009-0002-1385-8498"
+license: CC-BY-4.0
+url: "https://stepuplaw.com/data/florida-local-codes/"
+repository-code: "https://github.com/stepuplaw/fl-local-codes"
+keywords:
+  - municipal law
+  - ordinances
+  - local government
+  - legal research
+  - Florida
+  - open government data

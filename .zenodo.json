@@ -1,0 +1,45 @@
+{
+  "_comment": "Zenodo reads this file at release time and it OVERRIDES the metadata Zenodo would otherwise infer from GitHub. upload_type must stay 'dataset', because that is what makes Zenodo emit schema.org JSON-LD with @type Dataset, the form Google Dataset Search requires. creators[].orcid is what turns the author into a resolvable @id in the DataCite record, which DataCite, OpenAIRE and OpenAlex all inherit.",
+  "title": "Florida local codes of ordinances: publication and currency, 2026",
+  "upload_type": "dataset",
+  "description": "Where each of Florida's 478 local governments publishes its code of ordinances, who publishes it, and how current that code is. One row per county and per incorporated municipality, covering all 67 counties and all 411 cities, towns and villages. Municipal law is the hardest layer of American law to locate: there is no master index, and each commercial codifier lists only its own clients, so a reader who does not already know who publishes a town's code has nowhere to start. This dataset is that missing index for one state, and it records the jurisdictions no codifier carries, which is the part no vendor list can show. The jurisdiction frame is the Census Bureau subcounty population file, vintage 2024, which is independent of every codifier. Currency is measured from the codifier's own stated codification date, so a code that has not been supplemented in years is visible as such. Every URL was verified against the publisher's own resolver rather than an HTTP status code, because the largest codifier serves a 200 and a JavaScript shell for addresses that do not exist. Metadata only: no ordinance text is retrieved or republished.",
+  "creators": [
+    {
+      "name": "Klagge, Kevin D.",
+      "affiliation": "Klagge Law, PLLC (StepUpLaw)",
+      "orcid": "0009-0002-1385-8498"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "language": "eng",
+  "keywords": [
+    "municipal law",
+    "ordinances",
+    "local government",
+    "legal research",
+    "Florida",
+    "code of ordinances",
+    "zoning",
+    "code enforcement",
+    "open government data",
+    "legal information retrieval"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://stepuplaw.com/data/florida-local-codes/",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/stepuplaw/fl-local-codes",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.22247377",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    }
+  ]
+}
