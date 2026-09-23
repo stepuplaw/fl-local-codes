@@ -52,8 +52,8 @@
       "@type": "DataDownload",
       "encodingFormat": "text/csv",
       "contentUrl": "https://raw.githubusercontent.com/stepuplaw/fl-local-codes/main/data/fl-local-codes.csv",
-      "contentSize": "207474",
-      "sha256": "2fd8d41e2c0b373290ca83518be96a594b335c952978c6449847a79d64d022f9"
+      "contentSize": "207136",
+      "sha256": "57752444f8e87a7dc5e776ed135b37a8648d0df01cf87d250d1289368fef94a6"
     },
     {
       "@type": "DataDownload",
@@ -64,8 +64,8 @@
       "@type": "DataDownload",
       "encodingFormat": "application/vnd.apache.parquet",
       "contentUrl": "https://raw.githubusercontent.com/stepuplaw/fl-local-codes/main/data/fl-local-codes.parquet",
-      "contentSize": "66669",
-      "sha256": "44e5e8686cb0c41b4ca33cb4ed22a8aedec7e659aaea8ac828ac74b830e671b9"
+      "contentSize": "66720",
+      "sha256": "af9336185976e93447277808997dbc8f41da48889aa435eaa5f09bfff4d3d843"
     }
   ],
   "variableMeasured": [

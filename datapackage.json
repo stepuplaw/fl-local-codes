@@ -32,9 +32,9 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes": 207474,
+      "bytes": 207136,
       "rows": 478,
-      "hash": "sha256:2fd8d41e2c0b373290ca83518be96a594b335c952978c6449847a79d64d022f9",
+      "hash": "sha256:57752444f8e87a7dc5e776ed135b37a8648d0df01cf87d250d1289368fef94a6",
       "schema": {
         "fields": [
           {
@@ -145,14 +145,14 @@
       "path": "fl-local-codes.parquet",
       "format": "parquet",
       "mediatype": "application/vnd.apache.parquet",
-      "bytes": 66669,
+      "bytes": 66720,
       "rows": 478,
-      "hash": "sha256:44e5e8686cb0c41b4ca33cb4ed22a8aedec7e659aaea8ac828ac74b830e671b9"
+      "hash": "sha256:af9336185976e93447277808997dbc8f41da48889aa435eaa5f09bfff4d3d843"
     }
   ],
   "provenance": {
     "repository": "https://github.com/stepuplaw/legal-empirics",
-    "commit": "983d0970ab09d0387eb16cfa5fc1301004be6bbf",
+    "commit": "acd6c14cdbf50e477bf63cd8012d9ae939623a5e",
     "run": {
       "state": "FL",
       "sources": {
@@ -167,15 +167,15 @@
         "municode_unmatched_clients": 8,
         "manual_rows": 79,
         "municode_with_code": 399,
-        "unresolved": 9,
         "suspect_codified_date": 15,
+        "unresolved": 7,
         "municode_hidden": 1,
         "rows": 478,
         "online_html": 414,
-        "online_pdf": 34,
-        "no_online_code": 6
+        "online_pdf": 35,
+        "no_online_code": 7
       },
-      "runtime_minutes": 5.9
+      "runtime_minutes": 6.3
     }
   }
 }

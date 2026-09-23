@@ -185,8 +185,8 @@
    "county": "Calhoun",
    "counties": "Calhoun",
    "population": 495,
-   "code_status": "unknown",
-   "publisher": "unknown",
+   "code_status": "no-online-code",
+   "publisher": "none",
    "code_url": "",
    "publisher_client_id": "",
    "code_product_id": "",
@@ -195,10 +195,10 @@
    "pdf_available": 0,
    "pending_ordinances_count": null,
    "official_status": "unstated",
-   "source": "manual",
+   "source": "browser",
    "source_checked_date": "2026-09-23",
-   "notes": "no commercial code publisher carries this jurisdiction, having checked the Municode client list and library resolver, the American Legal Florida region listing, eCode360 and MunicipalCodeOnline; A second search on 2026-09-23 found this. The town site has an ordinances page, but its contents need a JavaScript browser to read, so whether any ordinances are posted is unconfirmed.",
-   "statement": "The town of Altha in Calhoun County, Florida, is carried by no commercial code publisher, and this survey could not confirm what it publishes instead. Checked 2026-09-23."
+   "notes": "The town site has a page titled Town Ordinances and Important Documents, but it was empty when loaded in a browser on 2026-09-23, and no ordinances or code are posted elsewhere on the site.",
+   "statement": "The town of Altha in Calhoun County, Florida, publishes no code of ordinances online. Checked 2026-09-23."
   },
   {
    "geoid": "12011",
@@ -8181,9 +8181,9 @@
    "pdf_available": 0,
    "pending_ordinances_count": null,
    "official_status": "unstated",
-   "source": "manual",
+   "source": "browser",
    "source_checked_date": "2026-09-23",
-   "notes": "no commercial code publisher carries this jurisdiction, having checked the Municode client list and library resolver, the American Legal Florida region listing, eCode360 and MunicipalCodeOnline; A second search on 2026-09-23 found this. The official site blocks automated access and I found no ordinances or code in archived captures, so this needs a manual browser check.",
+   "notes": "no commercial code publisher carries this jurisdiction, having checked the Municode client list and library resolver, the American Legal Florida region listing, eCode360 and MunicipalCodeOnline; The official site (paxtonfl.net) was read in a browser on 2026-09-23. Its menus have no ordinances, code or planning section, and the document library shows only forms and event documents, so no code was found; the clerk is the source.",
    "statement": "The town of Paxton in Walton County, Florida, is carried by no commercial code publisher, and this survey could not confirm what it publishes instead. Checked 2026-09-23."
   },
   {
@@ -9227,9 +9227,9 @@
    "county": "Okaloosa",
    "counties": "Okaloosa",
    "population": 757,
-   "code_status": "unknown",
-   "publisher": "unknown",
-   "code_url": "",
+   "code_status": "online-pdf-only",
+   "publisher": "self-hosted",
+   "code_url": "https://www.shalimarflorida.org/ordinances_0",
    "publisher_client_id": "",
    "code_product_id": "",
    "codified_through": "",
@@ -9237,10 +9237,10 @@
    "pdf_available": 0,
    "pending_ordinances_count": null,
    "official_status": "unstated",
-   "source": "manual",
+   "source": "browser",
    "source_checked_date": "2026-09-23",
-   "notes": "no commercial code publisher carries this jurisdiction, having checked the Municode client list and library resolver, the American Legal Florida region listing, eCode360 and MunicipalCodeOnline; A second search on 2026-09-23 found this. Shalimar appears to post a Code of Ordinances PDF in its document library (seen only in search results because the site blocks automated access); the former eLaws copy is offline.",
-   "statement": "The town of Shalimar in Okaloosa County, Florida, is carried by no commercial code publisher, and this survey could not confirm what it publishes instead. Checked 2026-09-23."
+   "notes": "Shalimar posts its Code of Ordinances as PDFs in three parts (Charter, General Ordinances, Land Development Code); the page says the current code was passed April 12, 2016. Read in a browser 2026-09-23.",
+   "statement": "The town of Shalimar in Okaloosa County, Florida, publishes its code of ordinances as a PDF through its own website at https://www.shalimarflorida.org/ordinances_0. Checked 2026-09-23."
   },
   {
    "geoid": "1266725",
