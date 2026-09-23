@@ -9,8 +9,8 @@
     }
   ],
   "homepage": "https://stepuplaw.com/data/florida-local-codes/",
-  "version": "2026-09-04",
-  "created": "2026-09-04",
+  "version": "2026-09-23",
+  "created": "2026-09-23",
   "sources": [
     {
       "title": "US Census Bureau subcounty population estimates, vintage 2024",
@@ -32,9 +32,9 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "bytes": 201771,
+      "bytes": 207474,
       "rows": 478,
-      "hash": "sha256:82a672265f9c6efc2ef99ad3c2141e973b152b85ea3d0154d7ecb73fcfeb6857",
+      "hash": "sha256:2fd8d41e2c0b373290ca83518be96a594b335c952978c6449847a79d64d022f9",
       "schema": {
         "fields": [
           {
@@ -75,7 +75,7 @@
           {
             "name": "publisher",
             "type": "string",
-            "description": "municode | american-legal | general-code | code-publishing | self-hosted | none | unknown"
+            "description": "municode | american-legal | general-code | code-publishing | municipal-code-online | elaws | self-hosted | county-code | planning-council | none | unknown"
           },
           {
             "name": "code_url",
@@ -145,14 +145,14 @@
       "path": "fl-local-codes.parquet",
       "format": "parquet",
       "mediatype": "application/vnd.apache.parquet",
-      "bytes": 59530,
+      "bytes": 66669,
       "rows": 478,
-      "hash": "sha256:2eed32f5ff94c0a77f16b7b3d0f5cf80334ffe67eddcd3e3acf0d62cc01997d2"
+      "hash": "sha256:44e5e8686cb0c41b4ca33cb4ed22a8aedec7e659aaea8ac828ac74b830e671b9"
     }
   ],
   "provenance": {
     "repository": "https://github.com/stepuplaw/legal-empirics",
-    "commit": "3c44331f8538073d66f4c3c38a87062bd5a7daf4",
+    "commit": "983d0970ab09d0387eb16cfa5fc1301004be6bbf",
     "run": {
       "state": "FL",
       "sources": {
@@ -165,17 +165,17 @@
         "municode_clients": 416,
         "municode_matched": 408,
         "municode_unmatched_clients": 8,
-        "manual_rows": 35,
+        "manual_rows": 79,
         "municode_with_code": 399,
-        "unresolved": 44,
+        "unresolved": 9,
         "suspect_codified_date": 15,
         "municode_hidden": 1,
         "rows": 478,
         "online_html": 414,
-        "online_pdf": 9,
-        "no_online_code": 2
+        "online_pdf": 34,
+        "no_online_code": 6
       },
-      "runtime_minutes": 5.8
+      "runtime_minutes": 5.9
     }
   }
 }

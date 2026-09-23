@@ -36,7 +36,7 @@
   "description": "Where each of Florida's 478 local governments publishes its code of ordinances, who publishes it, and how current that code is. One row per county and per incorporated municipality, covering all 67 counties and all 411 cities, towns and villages. Municipal law is the hardest layer of American law to locate: there is no master index, and each commercial codifier lists only its own clients, so a reader who does not already know who publishes a town's code has nowhere to start. This dataset is that missing index for one state, and it records the jurisdictions no codifier carries, which is the part no vendor list can show. Currency is measured from the codifier's own stated codification date, so a code that has not been supplemented in years is visible as such.",
   "url": "https://stepuplaw.com/data/florida-local-codes/",
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "version": "2026-09-04",
+  "version": "2026-09-23",
   "keywords": [
     "municipal law",
     "ordinances",
@@ -62,7 +62,7 @@
       "description": "The dataset as a single UTF-8 CSV with a header row.",
       "contentUrl": "https://raw.githubusercontent.com/stepuplaw/fl-local-codes/main/data/fl-local-codes.csv",
       "encodingFormat": "text/csv",
-      "sha256": "82a672265f9c6efc2ef99ad3c2141e973b152b85ea3d0154d7ecb73fcfeb6857"
+      "sha256": "2fd8d41e2c0b373290ca83518be96a594b335c952978c6449847a79d64d022f9"
     }
   ],
   "recordSet": [
@@ -181,7 +181,7 @@
           "@type": "cr:Field",
           "@id": "rows/publisher",
           "name": "publisher",
-          "description": "municode | american-legal | general-code | code-publishing | self-hosted | none | unknown",
+          "description": "municode | american-legal | general-code | code-publishing | municipal-code-online | elaws | self-hosted | county-code | planning-council | none | unknown",
           "dataType": "sc:Text",
           "source": {
             "fileObject": {

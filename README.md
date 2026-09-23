@@ -13,16 +13,16 @@ this table is not the towns on Municode, which anyone can find by searching
 Municode. It is everything else, because no vendor index can show you an
 absence.
 
-## Findings, as of 2026-09-04
+## Findings, as of 2026-09-23
 
 Four outcomes, and the middle two are the ones no existing list records.
 
-- **423 of 478 publish an actual code of ordinances online.** That is 61 of 67 counties and 362 of 411 municipalities. 414 serve it as a searchable web code and 9 only as a PDF.
-- **9 publish their ordinances but have never codified them.** The documents are online one at a time, so answering a question about fences means reading every ordinance the town ever passed. This is a different condition from having a code, and pooling the two would hide it.
-- **2 publish nothing online at all.** To read their ordinances you contact the clerk.
-- **44 could not be confirmed.** No commercial codifier carries them, and this survey could not establish what they publish instead. They are almost all towns under 1,000 people. Each row says what was checked; none is a claim that nothing exists.
+- **448 of 478 publish an actual code of ordinances online.** That is 64 of 67 counties and 384 of 411 municipalities. 414 serve it as a searchable web code and 34 only as a PDF.
+- **15 publish their ordinances but have never codified them.** The documents are online one at a time, so answering a question about fences means reading every ordinance the town ever passed. This is a different condition from having a code, and pooling the two would hide it.
+- **6 publish nothing online at all.** To read their ordinances you contact the clerk.
+- **9 could not be confirmed.** No commercial codifier carries them, and this survey could not establish what they publish instead. They are almost all towns under 1,000 people. Each row says what was checked; none is a claim that nothing exists.
 - **1223 adopted ordinances are waiting to be codified across Florida.** An ordinance that has passed but is not yet in the code still binds the property.
-- **16 codes were last codified more than three years ago**, and a further **15 state a codification date that postdates the supplement carrying it**, which is impossible and is recorded as a note rather than as a date.
+- **26 codes were last codified more than three years ago**, and a further **15 state a codification date that postdates the supplement carrying it**, which is impossible and is recorded as a note rather than as a date.
 - One publisher, Municode, carries 400 of them. A single vendor holds most of Florida's municipal law.
 
 ### By status
@@ -30,21 +30,23 @@ Four outcomes, and the middle two are the ones no existing list records.
 | Status          | Count |
 |-----------------|------:|
 | online-html     |   414 |
-| unknown         |    44 |
-| ordinances-only |     9 |
-| online-pdf-only |     9 |
-| no-online-code  |     2 |
+| online-pdf-only |    34 |
+| ordinances-only |    15 |
+| unknown         |     9 |
+| no-online-code  |     6 |
 
 ### By publisher
 
 | Publisher             | Count |
 |-----------------------|------:|
 | municode              |   400 |
-| unknown               |    44 |
-| self-hosted           |    18 |
+| self-hosted           |    39 |
+| none                  |    10 |
 | american-legal        |    10 |
+| county-code           |     6 |
+| unknown               |     5 |
+| planning-council      |     4 |
 | municipal-code-online |     3 |
-| none                  |     2 |
 | general-code          |     1 |
 
 ### By type
@@ -112,5 +114,5 @@ included here.
 Cite as: Klagge, Kevin D. "Florida local codes of ordinances, 2026." StepUpLaw.
 
 Documented at <https://stepuplaw.com/data/florida-local-codes/>.
-Method and build code: the `legal-empirics` repository, local copy at
-`~/legal-empirics` (`studies/fl-local-codes/`, `protocols/fl-local-codes.md`).
+Method and build code: <https://github.com/stepuplaw/legal-empirics>
+(`studies/fl-local-codes/`, `protocols/fl-local-codes.md`).

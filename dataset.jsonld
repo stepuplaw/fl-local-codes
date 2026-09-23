@@ -19,8 +19,8 @@
   ],
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "isAccessibleForFree": true,
-  "version": "2026-09-04",
-  "dateModified": "2026-09-04",
+  "version": "2026-09-23",
+  "dateModified": "2026-09-23",
   "creator": {
     "@type": "Person",
     "name": "Kevin D. Klagge",
@@ -52,8 +52,8 @@
       "@type": "DataDownload",
       "encodingFormat": "text/csv",
       "contentUrl": "https://raw.githubusercontent.com/stepuplaw/fl-local-codes/main/data/fl-local-codes.csv",
-      "contentSize": "201771",
-      "sha256": "82a672265f9c6efc2ef99ad3c2141e973b152b85ea3d0154d7ecb73fcfeb6857"
+      "contentSize": "207474",
+      "sha256": "2fd8d41e2c0b373290ca83518be96a594b335c952978c6449847a79d64d022f9"
     },
     {
       "@type": "DataDownload",
@@ -64,8 +64,8 @@
       "@type": "DataDownload",
       "encodingFormat": "application/vnd.apache.parquet",
       "contentUrl": "https://raw.githubusercontent.com/stepuplaw/fl-local-codes/main/data/fl-local-codes.parquet",
-      "contentSize": "59530",
-      "sha256": "2eed32f5ff94c0a77f16b7b3d0f5cf80334ffe67eddcd3e3acf0d62cc01997d2"
+      "contentSize": "66669",
+      "sha256": "44e5e8686cb0c41b4ca33cb4ed22a8aedec7e659aaea8ac828ac74b830e671b9"
     }
   ],
   "variableMeasured": [
@@ -107,7 +107,7 @@
     {
       "@type": "PropertyValue",
       "name": "publisher",
-      "description": "municode | american-legal | general-code | code-publishing | self-hosted | none | unknown"
+      "description": "municode | american-legal | general-code | code-publishing | municipal-code-online | elaws | self-hosted | county-code | planning-council | none | unknown"
     },
     {
       "@type": "PropertyValue",
